@@ -5,6 +5,7 @@ export type Todo = {
 }
 
 export type TodoFormProps = {
-    // onAdd
+    onAdd: (text: string) => void;
     inputRef: React.RefObject<HTMLInputElement | null>;
+
 }
